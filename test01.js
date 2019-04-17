@@ -63,3 +63,18 @@ switch (answer){
     alert('りんご or バナナを入力してください');
     break;
 }
+
+var fruits = ['りんご', 'バナナ', 'いちご', 'ぶどう', 'もも', 'キウイ', 'メロン', 'スイカ', 'みかん', 'さくらんぼ'];
+for (var i = 0, i < fruits.length; i++){
+  alert(fruits[i]);
+}
+
+var fruits = ['りんご', 'バナナ', 'いちご', 'ぶどう', 'もも', 'キウイ', 'メロン', 'スイカ', 'みかん', 'さくらんぼ'];
+var i = 0;
+while (true){
+  if (i < fruits.length){
+    break;
+}
+  alert(furits[i]);
+  i++;
+}
