@@ -31,3 +31,22 @@ alert(fruits[1].price); // 'バナナ'の金額
 
 var answer = prompt('1 + 1は?');
 alert(answer);
+
+var answer = prompt('1 + 1は?');
+alert(answer);
+
+var answer = prompt('1 + 1は?');
+if (answer == 2){
+  alert('正解');
+}else {
+  alert('不正解');
+}
+
+var answer = prompt('りんごとバナナどちらが好きですか？');
+if (answer == 'りんご'){
+  alert('りんごは英語でappleです');
+}else if(answer == 'バナナ'){
+  alertt('バナナは英語でbananaです');
+}else{
+  alert('りんご or バナナを入力してください');
+}
