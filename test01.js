@@ -50,3 +50,16 @@ if (answer == 'りんご'){
 }else{
   alert('りんご or バナナを入力してください');
 }
+
+var answer = prompt('りんごとバナナのどちらが好きですか？');
+switch (answer){
+  case 'りんご';
+    alert('りんごは英語でappleです');
+    break;
+  case 'バナナ';
+    alert('バナナは英語でbananaです');
+    break;
+  default;
+    alert('りんご or バナナを入力してください');
+    break;
+}
