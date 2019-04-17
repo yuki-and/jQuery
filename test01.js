@@ -78,3 +78,8 @@ while (true){
   alert(furits[i]);
   i++;
 }
+
+function clac(x){
+  return x * 2;
+}
+alert(clac(3));
